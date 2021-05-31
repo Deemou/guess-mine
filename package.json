@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "dev:server": "nodemon --exec babel-node src/server"
+  },
+  "name": "guess-mine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Deemou/guess-mine",
+  "author": "Deemou <4106243@naver.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
+    "@babel/preset-env": "^7.14.4",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "pug": "^3.0.2",
+    "socket.io": "^4.1.2"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.0"
+  }
+}
